@@ -16,7 +16,7 @@ class Plant:
 
     def set_age(self, age: int) -> bool:
         if age < 0:
-            print(f"{self.name}: Error, age can’t be negative")
+            print(f"{self.name}: Error, age can't be negative")
             return False
         self._age = age
         return True
